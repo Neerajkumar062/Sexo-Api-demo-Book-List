@@ -1,0 +1,82 @@
+#header
+{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
+
+#nav
+{
+    line-height: 30px;
+    background-color: #eeeeee;
+    height: 500px;
+    width: 100px;
+    float: left;
+    padding: 5px;
+}
+
+#section
+{
+    width: 350px;
+    float: left;
+    padding: 10px;
+}
+
+#footer
+{
+    background-color: black;
+    color: white;
+    clear: both;
+    text-align: center;
+    padding: 5px;
+}
+
+.error
+{
+    margin: 10px auto;
+    font-weight: bold;
+    color: #E74343;
+    font-size: 18px;
+    text-shadow: 0 1px 2px #eeeeee;
+}
+.inline {
+    height:100px
+}
+.title{
+    clear: both;
+font-size: 13px;
+font-weight: bold;
+}
+
+img:hover { 
+    height:110px;
+    background:#ef5d22;
+    box-shadow: 0 0 10px #000;
+}
+
+
+span.galleryImage {
+    display: inline-block;
+    position: relative;
+   
+}
+
+span.galleryImage input[type=checkbox] {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    width: 20%;
+    height: 20%;
+    -webkit-transition: all 0.5s ease-in-out;
+}
+
+span.galleryImage:hover input[type=checkbox],
+span.galleryImage input[type=checkbox]:checked {
+   
+    opacity: 1;
+    width: 20%;
+    height: 20%;
+    -webkit-transition: all 0.5s ease-in-out;
+}
